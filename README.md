@@ -17,3 +17,40 @@ y_train:NumPy array of digit labels (integers in range 0-9) with shape (60000,) 
 x_test:NumPy array of grayscale image data with shapes (10000, 28, 28), containing the test data. Pixel values range from 0 to 255.
 
 y_test:NumPy array of digit labels (integers in range 0-9) with shape (10000,) for the test data
+
+
+
+OUTPUTS:
+1)INPUT LAYER ,OUTPUT LAYER(No Hidden Layers)
+
+Training Accuracy: 0.89
+
+Training Loss: 0.42
+
+Test Accuracy: 0.39
+
+Test Loss: 0.90
+
+
+2)INPUT LAYER ,HIDDEN LAYER,OUTPUT LAYER
+
+Training Accuracy: 0.967
+
+Training Loss: 0.10
+
+Test Accuracy: 0.963
+
+Test Loss: 0.123
+
+
+1)INPUT LAYER(Flatten Layer),HIDDEN LAYER ,OUTPUT LAYER
+
+Training Accuracy: 0.97
+
+Training Loss: 0.08
+
+Test Accuracy: 0.967
+
+Test Loss: 0.11
+
+
